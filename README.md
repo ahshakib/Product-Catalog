@@ -2,10 +2,23 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Running the App Locally
+
+1. Clone the repository using `git clone https://github.com/ahshakib/Product-Catalog.git`
+2. Navigate to the project directory using `cd Product-Catalog`
+3. Install the dependencies using `npm install` or `yarn install`
+4. Start the development server using `npm run dev` or `yarn dev`
+5. Open your browser and navigate to `http://localhost:5173`
+
+### Login Credentials
+
+No login credentials are required for this app.
+
+### Public URL Link
+
+The app is deployed at [https://product-catalog-hz4axruuc-ahshakibs-projects.vercel.app/](https://product-catalog-hz4axruuc-ahshakibs-projects.vercel.app/)
 
 ## Expanding the ESLint configuration
 
