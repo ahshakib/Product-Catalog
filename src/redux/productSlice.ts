@@ -26,7 +26,7 @@ const initialState: ProductState = {
 
 export const fetchProducts = createAsyncThunk('product/fetchProducts', async () => {
   const response = await axios.get('https://fakestoreapi.com/products');
-  return response.data;
+  return response.data as Product[];
 });
 
 const productSlice = createSlice({
